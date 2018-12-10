@@ -68,7 +68,7 @@ simulate <- function(fixtures){
 }
 
 
-nsim = 10000
+nsim = 100
 tabulate_data <- data.frame(name = teams,
                             champion = rep(0,20),
                             runner_up = rep(0,20),

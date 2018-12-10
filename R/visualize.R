@@ -5,14 +5,14 @@ library (extrafont)
 
 download.file("http://simonsoftware.se/other/xkcd.ttf",
               dest="xkcd.ttf", mode="wb")
-system("cp ./xkcd.ttf ~/Library/Fonts")
+system("cp ./xkcd.tff ~/Library/Fonts")
 font_import(path="~/Library/Fonts", pattern = "xkcd", prompt=FALSE)
 fonts()
 fonttable()
 if(.Platform$OS.type != "unix") {
   ## Register fonts for Windows bitmap output
-    loadfonts(device="win")
-  } else {
+  loadfonts(device="win")
+} else {
   loadfonts()
 }
 

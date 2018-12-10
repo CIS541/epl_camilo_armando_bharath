@@ -5,17 +5,17 @@
 # - fixtures.csv: dedicatedexcel.com
 # - Historical results: https://www.kaggle.com/thefc17/epl-results-19932018
 #########################################
-setwd('C:/School/FALL-2/Data_Mining_And_Machine_Learning/epl_camilo_armando_bharath')
+setwd('C:/School/FALL-2/Data_Mining_And_Machine_Learning/epl_camilo_armando_bharath/R')
 library (dplyr)
 
-  fixtures <- read.csv("./data/fixtures.csv", stringsAsFactors = FALSE)
-#fixtures$result = ''
+  fixtures <- read.csv("../data/fixtures.csv", stringsAsFactors = FALSE)
+fixtures$result = ''
 
 # get the team
 teams <- unique(fixtures$HOME.TEAM)
 
 # extract historic results
-history <- read.csv("./data/history.csv", stringsAsFactors = FALSE)
+history <- read.csv("../data/history.csv", stringsAsFactors = FALSE)
 
 # get info from the 2010 up to 2018
 seasons <- sapply(10:17, function(x) paste0(2000+x,'-',x+1))
