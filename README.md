@@ -11,7 +11,7 @@ Rationale for the choice of DM and ML techniques:
 -	Data Mining: Linear regression analysis (Poisson).
 -	Machine Learning: Genetic Computing (Simulations)
 Description of Design:
-For predicting the result, a linear regression analysis will be implemented along with an eXtreme Gradient Boosting technique. The data from the CSV. file will be transferred into the model and subsequently it will be able to generate results for further analysis.
+For predicting the result, a linear regression analysis will be implemented along with an Genetic Computing technique (Simulations). The data from the CSV. file will be transferred into the model and subsequently it will be able to generate results for further analysis.
 Explanation of data (file format, independent/dependent variables, sources):
 The data is organized in a CSV. Excel file with the historical and current season’s data. The metrics and variables used are geared more towards goals, since they directly impact a match’s result, which is the dependent variable. A CSV. File facilitates the transfer of data into the model.
 Identification of Training and Testing data
