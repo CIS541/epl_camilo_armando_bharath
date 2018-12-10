@@ -21,7 +21,10 @@ Testing and Validation Procedure: After training the data allocated for the trai
 Results and Incites:
 The model produces predictions that closely approximate to previous scores and predicts outcomes with a certain level of accuracy.
 Graphs:
- 
+
+![]('/graphs/Agg.png')
+<br>
+![]('/graphs/Last.png')
 
 Citations (as a footnote):
 
