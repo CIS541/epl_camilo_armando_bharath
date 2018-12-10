@@ -1,6 +1,6 @@
 
 # English Premier League Prediction Engine
-Under the guidance of Sean Mondesire
+Under the guidance of Sean Mondesire, PhD
 ---
 Problem:
 Develop a model that generates accurate predictions of 10 matches from the English Premier League.<br>
