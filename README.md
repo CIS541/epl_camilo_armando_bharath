@@ -4,6 +4,7 @@ Under the guidance of Sean Mondesire
 ---
 Problem:
 Develop a model that generates accurate predictions of 10 matches from the English Premier League.<br>
+<br>
 Background/Literature Review:
 The English Premier League has the most lucrative broadcast television deal among European soccer leagues. According to a report from Deloitte’s Sports Business Group, the league reported a profit of $2.42 billion in the 2017/2018 season, and in the previous season, reported a record revenue of nearly $6.4 billion (CNN articles cite). Due to the league’s popularity, a lot of league’s inflow of cash comes from gambling, and predicting the outcome of matches for this league in particular has become more common worldwide.<br>
 Rationale for the choice of DM and ML techniques:
